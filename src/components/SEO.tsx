@@ -9,35 +9,35 @@ interface SEOProps {
 }
 
 const SEO = ({ 
-  title = "Oritro - Full Stack Developer",
-  description = "Full Stack Developer with 13 years of experience in PHP, Python, Go, JavaScript, and more. Specialized in microservices architecture and scalable solutions.",
+  title = "Jhon - Full Stack Developer",
+  description = "Full Stack Developer with 2 years of experience in PHP, Python, JavaScript, and more. Specialized QA solutions.",
   image = "/og-image.png", 
-  url = "https://iam.ioritro.com", 
+  url = "https://ac3.netlify.app/", 
   type = "website"
 }: SEOProps) => {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Person",
-    name: "Oritro",
+    name: "Jhon",
     jobTitle: "Full Stack Developer",
     url: url,
     sameAs: [
-      "https://linkedin.com/in/oritromax",
-      "https://github.com/oritromax"
+      "https://linkedin.com/in/jhon-carlos-acevedo-mendoza",
+      "https://github.com/jhoncarlosam-dev"
     ],
     knowsAbout: [
       "Full Stack Development",
-      "Microservices Architecture",
-      "PHP",
+      "Tester",
+      "QA",
       "Python",
-      "Go",
+      "Selenium",
       "JavaScript",
       "Docker",
-      "Cloud Computing"
+      "Azure"
     ],
     worksFor: {
       "@type": "Organization",
-      name: "Montex Marketing LLC"
+      name: "IPT - Academia de Inglés para Todos"
     }
   };
 
